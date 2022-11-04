@@ -113,7 +113,7 @@ bot.callbackQuery("start", async (ctx) => {
       {
         reply_markup: new InlineKeyboard()
           .text(ctx.t("usage-help"), "helper").row()
-          .url(ctx.t("updates"), "https://t.me/BotzHub"),
+          .url(ctx.t("updates"), "https://t.me/Disney_villa"),
         disable_web_page_preview: true,
         parse_mode: "HTML",
       },
